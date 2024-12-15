@@ -1,0 +1,11 @@
+.portfolio {
+  max-width: 1000px;
+  padding-top: 6rem;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1060px) {
+  .texts-portfolio {
+    padding: 0 0 0 40px;
+  }
+}

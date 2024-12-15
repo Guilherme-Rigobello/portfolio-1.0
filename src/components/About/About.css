@@ -1,0 +1,54 @@
+.about {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 6rem;
+  height: 50vh;
+  width: 85%;
+
+}
+
+.img img {
+  width: 80%;
+}
+
+.content h1 {
+  color: #fff;
+  font-weight: bolder;
+}
+
+.content .resume {
+  width: 26vw;
+  color: #ffffff82;
+  order: 1;
+}
+
+@media screen and (max-width: 950px) {
+  .about {
+   margin-top: 5rem ;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+
+  }
+
+  .about .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+
+  .about .content {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .content .resume {
+    width: 100%;
+    margin: 0 auto;
+  }
+}

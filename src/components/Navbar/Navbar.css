@@ -1,0 +1,37 @@
+/* NAV STYLE */
+.nav {
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  background-color: rgba(123, 74, 226, 0.05);
+  height: 60px;
+  padding: 0 20px;
+}
+
+.nav img {
+  background: transparent;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav ul li {
+  text-decoration: none;
+  color: #ffffff85;
+  transition: 0.3s;
+  cursor: pointer;
+  padding-left: 30px;
+  letter-spacing: 0.3px;
+}
+
+.nav ul li:hover {
+  color: #7b4ae2;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1000px) {
+  nav.nav {
+    margin: 0 30px;
+  }
+}

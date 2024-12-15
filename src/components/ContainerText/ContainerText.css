@@ -1,0 +1,14 @@
+/* P STYLE COMPONENT */
+.p-bg  {
+    color: #7b4ae2;
+    background-color: rgba(123, 74, 226, 0.05);
+  
+    width: fit-content;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 0 20px;
+    height: 40px;
+  
+    font-weight: 700;
+    font-size: 1.2rem;
+  }

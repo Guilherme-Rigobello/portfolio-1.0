@@ -1,0 +1,50 @@
+.skills-section {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.skills-section .p-techs {
+  color: #ffffff88;
+}
+
+.scroll {
+  margin-top: 50px;
+  margin-inline: auto;
+  width: 80%;
+  max-width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  overflow: hidden;
+  mask: linear-gradient(
+    to right,
+    transparent,
+    black 15%,
+    black 85%,
+    transparent
+  );
+}
+
+.scroll__container {
+  display: flex;
+  width: max-content;
+  gap: 10px;
+  animation: scrollInfinito 10s linear infinite;
+}
+
+.scroll__item {
+  background-color:  rgba(123, 74, 226, 0.1);
+  border-radius: 5px;
+  padding: 5px 15px;
+  white-space: nowrap;
+  font-size: 35px;
+  border: 2px solid #555555;
+}
+
+@keyframes scrollInfinito {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
