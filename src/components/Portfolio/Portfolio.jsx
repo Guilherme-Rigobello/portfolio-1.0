@@ -7,6 +7,7 @@ import Img1 from '../../assets/projects/Img-1.svg';
 import Img2 from '../../assets/projects/Img-2.svg';
 import Img3 from '../../assets/projects/Img-3.svg';
 import Img4 from '../../assets/projects/Img-4.svg';
+import Img5 from '../../assets/projects/Img-5.svg';
 // CSS Import
 import '../ContainerText/ContainerText.css';
 
@@ -24,7 +25,7 @@ function Portfolio() {
       title: 'Weather Forecast',
       description:
         'Aplicação web realizada em React + Vite, API OpenWeatherMap e Axios onde é possível observar a previsão do tempo em qualquer cidade do mundo!',
-      languages: ['React', 'API'],
+      languages: ['Vite + React', 'API'],
       imageSrc: Img2,
       githubLink: 'https://guilherme-rigobello.github.io/weather-forecast',
     },
@@ -37,19 +38,19 @@ function Portfolio() {
       githubLink: 'https://github.com/Guilherme-Rigobello/syncro',
     },
     {
-      title: 'User Register',
+      title: 'Films Lib',
       description:
-        'Aplicação web desenvolvida com React + Vite, utilizando MongoDB Atlas, Node.js e Prisma para gerenciar e remover usuários. ',
-      languages: ['Nodejs', 'MongoDB'],
+        'A movie catalog where you can search and see the details of any movie using the TMDB API. React + Vite (Frontend); Consumindo API do TMDB para exibição dos filmes.',
+      languages: ['Vite + React ', 'API'],
       imageSrc: Img4,
-      githubLink: 'https://github.com/Guilherme-Rigobello/user-registration',
+      githubLink: 'https://films-lib-hazel.vercel.app',
     },
     {
       title: 'User Register',
       description:
         'Aplicação web desenvolvida com React + Vite, utilizando MongoDB Atlas, Node.js e Prisma para gerenciar e remover usuários. Através do Axios foi possível fazer a interação com Back.',
       languages: ['Nodejs', 'MongoDB'],
-      imageSrc: Img1,
+      imageSrc: Img5,
       githubLink: 'https://github.com/Guilherme-Rigobello/user-registration',
     },
     {
@@ -65,7 +66,6 @@ function Portfolio() {
   return (
     <section className='w-100 portfolio'>
       <div className='texts-portfolio w-100'>
-       
         <ContainerText text='🔗 Portfólio' />
         <h2>Projetos e Repositórios</h2>
       </div>

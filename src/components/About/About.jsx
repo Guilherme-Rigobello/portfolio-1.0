@@ -12,7 +12,7 @@ function About() {
         <ContainerText className='container' text='🧐 Sobre mim' />
         <h1 className='mb-4'>Guilherme Rigobello</h1>
         <p className='resume'>
-          👨‍💻 Há mais de 1 ano aprendendo constantemente e desenvolvendo projetos
+          👨‍💻 Há mais de 2 anos aprendendo constantemente e desenvolvendo projetos
           para praticar da melhor forma possível 
           <br />
           <br /> 🎓 Atualmente cursando o ensino médio técnico na FIAP{' '}
