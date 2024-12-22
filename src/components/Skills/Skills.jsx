@@ -14,6 +14,7 @@ import {
 import { IoLogoJavascript } from 'react-icons/io5';
 import { BsFiletypeSql } from 'react-icons/bs';
 import { DiMongodb } from 'react-icons/di';
+import { RiTailwindCssFill } from 'react-icons/ri';
 
 // CSS Import
 import './Skills.css';
@@ -45,6 +46,9 @@ function Skills() {
           <div className='scroll__item'>
             <FaNodeJs color='#68A063' />
           </div>
+          <div className="scroll__item">
+            <RiTailwindCssFill color='#61DBFB' />
+          </div>
           <div className='scroll__item'>
             <FaFigma color='#F24E1E' />
           </div>
@@ -75,6 +79,9 @@ function Skills() {
           </div>
           <div className='scroll__item scroll__item--fake'>
             <FaNodeJs color='#68A063' />
+          </div>
+          <div className="scroll__item scroll__item--fake">
+            <RiTailwindCssFill color='#61DBFB' />
           </div>
           <div className='scroll__item scroll__item--fake'>
             <FaFigma color='#F24E1E' />
