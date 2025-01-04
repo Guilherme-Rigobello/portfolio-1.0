@@ -4,4 +4,4 @@ Desenvolvido com **React + Vite**, este projeto tem como objetivo treinar novas 
 
 # 👀 Dê uma olhada
 
-----> <a href="https://guilherme-rigobello.github.io/portfolio-1.0/" target="_blank">Guilherme Rigobello - Portfolio</a> <----
+----> [Guilherme Rigobello - Portfolio](https://guilherme-rigobello.github.io/portfolio-1.0/) <----
