@@ -103,8 +103,4 @@ main .info .job {
   .img-center {
     width: 330px;
   }
-
-  .download {
-    display: none !important;
-  }
 }
