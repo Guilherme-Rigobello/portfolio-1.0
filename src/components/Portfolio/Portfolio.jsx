@@ -8,6 +8,7 @@ import Img2 from '../../assets/projects/Img-2.svg';
 import Img3 from '../../assets/projects/Img-3.svg';
 import Img4 from '../../assets/projects/Img-4.svg';
 import Img5 from '../../assets/projects/Img-5.svg';
+import Img6 from '../../assets/projects/Img-6.svg';
 // CSS Import
 import '../ContainerText/ContainerText.css';
 
@@ -46,20 +47,20 @@ function Portfolio() {
       githubLink: 'https://films-lib-hazel.vercel.app',
     },
     {
-      title: 'User Register',
+      title: 'Cristal Terapias',
       description:
-        'Aplicação web desenvolvida com React + Vite, utilizando MongoDB Atlas, Node.js e Prisma para gerenciar e remover usuários. Através do Axios foi possível fazer a interação com Back.',
-      languages: ['Nodejs', 'MongoDB'],
+        'Freelancer de terapias desenvolvido com React + Vite, utilizando Tailwind CSS para um design moderno e responsivo. As animações foram criadas com Framer Motion.',
+      languages: ['Tailwind CSS', 'React'],
       imageSrc: Img5,
-      githubLink: 'https://github.com/Guilherme-Rigobello/user-registration',
+      githubLink: 'https://github.com/Guilherme-Rigobello/cristal-terapias',
     },
     {
-      title: 'User Register',
+      title: 'Meu Portfolio',
       description:
-        'Aplicação web desenvolvida com React + Vite, utilizando MongoDB Atlas, Node.js e Prisma para gerenciar e remover usuários. Através do Axios foi possível fazer a interação com Back.',
-      languages: ['Nodejs', 'MongoDB'],
-      imageSrc: Img1,
-      githubLink: 'https://github.com/Guilherme-Rigobello/user-registration',
+        'Portfolio pessoal desenvolvido com React + Vite, focando no treinamento de novas tecnologias e na apresentação simplificada de informações.',
+      languages: ['My Portfolio', 'React'],
+      imageSrc: Img6,
+      githubLink: 'https://github.com/Guilherme-Rigobello/portfolio-1.0',
     },
   ];
 

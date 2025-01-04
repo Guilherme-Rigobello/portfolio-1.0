@@ -2,11 +2,13 @@
 import './Home.css';
 import Me from '../../assets/person/me.png';
 import ContainerText from '../ContainerText/ContainerText';
+import Curriculo from '../../../public/curriculo/MyProfile.pdf';
 
 //React Icons Import
 import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
-import { TbBrandWhatsappFilled } from 'react-icons/tb';
-import { MdDownload } from 'react-icons/md';
+import { MdDownload, MdMarkEmailRead    } from 'react-icons/md';
+
+
 
 function Home() {
   return (
@@ -17,15 +19,25 @@ function Home() {
           Guilherme <br />
           Rigobello
         </h1>
-        <span className='job'>
-         Full Stack Developer .
-        </span>
+        <span className='job'>Full Stack Developer .</span>
         <div className='socials mt-3'>
           <span className='li'>
-            <FaGithubSquare />
+            <a
+              href='https://github.com/Guilherme-Rigobello'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <FaGithubSquare />
+            </a>
           </span>
           <span className='li'>
-            <FaLinkedin className='ms-2' />
+            <a
+              href='https://www.linkedin.com/in/guilhermerigobello-/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <FaLinkedin className='ms-2' />
+            </a>
           </span>
         </div>
       </div>
@@ -33,13 +45,16 @@ function Home() {
         <img src={Me} width='350px' />
       </div>
       <div className='download d-flex flex-column'>
-        <a className='load text-center' href=''>
-          Baixar CV <MdDownload className='icon' />
+        <a className='load text-center' href={Curriculo} target='_blanck'>
+          Meu CV <MdDownload className='icon' />
         </a>
-        <a className='talk mt-4  d-flex align-items-center '>
+        <a
+          className='talk mt-4 d-flex align-items-center'
+          href='mailto:grigobello@proton.me'
+        >
           Let's Talk{' '}
           <span className='ms-2 mb-1'>
-            <TbBrandWhatsappFilled />
+            <MdMarkEmailRead   />
           </span>
         </a>
       </div>

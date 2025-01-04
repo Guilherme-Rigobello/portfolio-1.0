@@ -34,9 +34,12 @@ footer {
   transition: 0.3s;
   cursor: pointer;
 }
-
 .ul-footer li:hover {
   color: #fff;
+}
+
+.ul-footer li a {
+  color: inherit;
 }
 @media (max-width: 670px) {
   footer {

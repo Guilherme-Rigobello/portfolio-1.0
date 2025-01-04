@@ -35,6 +35,10 @@ main .info .job {
   color: #fff;
 }
 
+.socials a {
+  color: inherit;
+}
+
 /* MAIN ELEMENTS (DIV DOWNLOAD)*/
 .download .load {
   background: linear-gradient(
@@ -75,6 +79,8 @@ main .info .job {
   filter: saturate(1.2) brightness(0.8);
 }
 
+/* RESPONSIVE */
+
 @media screen and (max-width: 1200px) {
   main {
     margin-top: 3rem;
@@ -84,7 +90,6 @@ main .info .job {
     flex-direction: column;
     margin-bottom: 3rem;
   }
-
 }
 
 @media screen and (max-width: 1000px) {
@@ -103,4 +108,3 @@ main .info .job {
     display: none !important;
   }
 }
-
