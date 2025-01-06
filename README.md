@@ -1,6 +1,6 @@
 # 📃 Portfolio Pessoal
 
-Desenvolvido com **React + Vite**, este projeto tem como objetivo treinar novas tecnologias e apresentar informações de forma simplificada.
+Desenvolvido com **Tailwind CSS e React + Vite**, com o objetivo de apresentar **MINHAS** informações de forma simplificada.
 
 # 👀 Dê uma olhada
 
